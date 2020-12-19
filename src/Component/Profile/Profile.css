@@ -1,0 +1,20 @@
+.Profile-Container {
+  background-color: white;
+}
+
+.Profile {
+  font-size: 21px;
+  text-align: center;
+  color: #727878;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.Profile-Header {
+  font-size: 54px;
+  text-align: center;
+  font-weight: 300;
+  color: #22A39F;
+  font-family: 'Open Sans', sans-serif !important;
+  margin-bottom: 20px;
+}
+
