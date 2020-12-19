@@ -1,20 +1,59 @@
 .Profile-Container {
-  background-color: white;
+  display: block;
 }
 
 .Profile {
-  font-size: 21px;
-  text-align: center;
-  color: #727878;
-  font-family: 'Open Sans', sans-serif !important;
+  padding: 30px 250px;
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.Profile-Header {
+h2 {
   font-size: 54px;
   text-align: center;
   font-weight: 300;
   color: #22A39F;
   font-family: 'Open Sans', sans-serif !important;
-  margin-bottom: 20px;
 }
 
+p {
+  text-align: center;
+  color: #727878;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+hr {
+  margin: 40px 0px;
+  border-color: #727878;
+  opacity: 0.2;
+}
+
+.About {
+  justify-content: center;
+  display: flex;
+}
+
+.About .Pic {
+  margin-right: 50px;
+}
+
+.About .Pic img{
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+
+
+.About .About-Me h3{
+  font-size: 28px;
+  font-weight: 300;
+  color: #22A39F;
+  font-family: 'Open Sans', sans-serif !important;
+}
