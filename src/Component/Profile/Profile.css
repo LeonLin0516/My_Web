@@ -39,7 +39,7 @@ hr {
 }
 
 .About .Pic {
-  margin-right: 50px;
+  flex: 40%;
 }
 
 .About .Pic img{
@@ -49,9 +49,11 @@ hr {
   border-radius: 50%;
 }
 
+.About .About-Me{
+  flex: 60%;
+}
 
-
-.About .About-Me h3{
+.About .About-Me div{
   font-size: 28px;
   font-weight: 300;
   color: #22A39F;

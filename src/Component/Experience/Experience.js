@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Experience = () => (
-  <div>
-    <h1>Education</h1>
-    <h1>Experiences</h1>
+  <div className="Experience-Container">
+    <h2>Education</h2>
+    <h2>Experiences</h2>
   </div>
 )
 
