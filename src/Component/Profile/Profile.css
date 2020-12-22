@@ -59,3 +59,17 @@ hr {
   color: #22A39F;
   font-family: 'Open Sans', sans-serif !important;
 }
+
+.Download {
+  border: 2px;
+  padding: 10px;
+  border-radius: 21px;
+  box-sizing: border-box;
+  background-color: #22A39F;
+  color: white;
+  text-decoration: none;
+}
+
+.Download:hover{
+  opacity: 0.5;
+}

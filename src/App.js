@@ -9,15 +9,19 @@ import './Component/Abilities/Abilities.css';
 import Project from './Component/Project/Project';
 import './Component/Project/Project.css';
 import Footer from './Component/Footer/Footer';
+import './Component/Footer/Footer.css';
+import Welcome from './Component/Welcome/Welcome';
+import './Component/Welcome/Welcome.css';
 
 function App() {
   return (
     <div className="App">
+      <Welcome />
       <Profile />
       <Experience />
       {/* <Abilities /> */}
       <Project />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

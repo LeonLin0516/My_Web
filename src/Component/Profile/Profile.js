@@ -19,7 +19,7 @@ const Profile = () => (
             deep learning, data mining, and data analysis. My future career path is Machine Learning Engineer.
           </p>
           <p>
-            <a href={Resume} download="Leon_Resume">Download My Resume</a>
+            <a href={Resume} download="Leon_Resume" className="Download">Download My Resume</a>
           </p>
         </div>
       </div>
