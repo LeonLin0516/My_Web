@@ -8,14 +8,16 @@ import Abilities from './Component/Abilities/Abilities';
 import './Component/Abilities/Abilities.css';
 import Project from './Component/Project/Project';
 import './Component/Project/Project.css';
+import Footer from './Component/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
       <Profile />
       <Experience />
-      <Abilities />
+      {/* <Abilities /> */}
       <Project />
+      {/* <Footer /> */}
     </div>
   );
 }
